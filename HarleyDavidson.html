@@ -32,11 +32,13 @@
           font-size: 3.5rem;
         }
       }
+
+
     </style>
 
     
   </head>
-  <body style="background-color: black;">
+  <body style="background-image: url(./IMG/background.jpg);">
     
 <main>
   <div class="container py-4">
@@ -47,7 +49,7 @@
       </div>
       </a>
       <br>
-      <nav class="navbar navbar-expand-lg navbar-light rounded-3" style="background-color: rgb(218, 142, 1);">
+      <nav class="navbar navbar-expand-lg navbar-light rounded-3 border border-dark" style="background-color: rgb(218, 142, 1);">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -77,14 +79,26 @@
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./IMG/slide1.jpg" class=" d-block w-30 rounded-3" alt="...">
+        <div class="carousel-item active border border-dark">
+          <img src="./IMG/slide1.jpg" class=" d-block w-100 rounded-3" style="width: fit-content;" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./IMG/slide2.jpg" class="d-block w-100 rounded-3" alt="...">
+          <img src="./IMG/slide2.jpg" class="d-block w-100 rounded-3" style="width: fit-content;" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./IMG/slide3.jpg" class="d-block w-100 rounded-3" alt="...">
+          <img src="./IMG/slide3.jpg" class="d-block w-100 rounded-3" style="width: fit-content;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/slide4.jpg" class="d-block w-100 rounded-3" style="width: fit-content;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/slide5.jpg" class="d-block w-100 rounded-3" style="width: fit-content;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/slide6.jpg" class="d-block w-100 rounded-3" style="width: fit-content;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/slide7.jpg" class="d-block w-100 rounded-3" style="width: fit-content;" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -118,7 +132,6 @@
     <div class="container-fluid h-100 p-5 text-white bg-dark rounded-3">
       <h2 style="text-align: center;">Ficha Técnica:</h2>
     <br>
-    <!--div class="col-md-4"-->
       <div class="container-fluid h-100 p-5 text-white bg-dark rounded-3">
       
         <div class="accordion" id="accordionExample">
@@ -131,9 +144,13 @@
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
+              <div class="accordion-body" style="color: black; text-align: center;">
+                <strong>Motor Evolution refrigerado a ar.</strong><br><br><br>
+                    <p>Diâmetro do cilindro: 76,2 mm</p>
+                    <p>Curso do êmbolo: 96,8 mm</p>
+                    <p>Cilindrada: 883 cc</p>
+                    <p>Taxa de compressão: 9:01</p>
+                </div>
             </div>
           </div>
           <div class="accordion-item">
@@ -145,8 +162,13 @@
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <div class="accordion-body" style="color: black; text-align: center;">
+                <strong>Método de teste do torque do motor: EC 134/2014.</strong><br><br><br>
+                    <p>Torque do motor: 67 Nm</p>
+                    <p>Motor e torque (rpm): 3.750m</p>
+                    <p>Ângulo de inclinação, direita (graus): 27º</p>
+                    <p>Ângulo de inclinação, esquerda (graus): 28º</p>
+                </div>
               </div>
             </div>
           </div>
@@ -160,21 +182,18 @@
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <div class="accordion-body" style="color: black; text-align: center;">
+                <strong>Chassi confeccionado em aço.</strong><br><br><br>
+                    <p>Roda dianteira, tipo: Pretas de 9 raios com detalhes usinados</p>
+                    <p>Roda traseira, tipo: Pretas de 9 raios com detalhes usinados</p>
+                    <p>Freios tipo cáliper: Pistão duplo na dianteira e na traseira</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         
-        <!--dl>
-          <dt style="text-align: center;">Motor:</dt><br>
-          <dd>Motor: Evolution refrigerado a ar.</dd>
-          <dd>Diâmetro do cilindro: 76,2 mm.</dd>
-          <dd>Curso do êmbolo: 96,8 mm.</dd>
-          <dd>Cilindrada: 883 cc</dd>
-          <dd>Taxa de compressão: 9:01</dd>
-        </dl-->
+        
       
        <br><br>
        
